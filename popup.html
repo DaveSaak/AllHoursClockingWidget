@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <!-- <script src="moment.js"></script> -->
+    <!-- <script src="underscore-min.js"></script> -->
+
+    <script src="allHoursApi.js"></script>
+    <script src="currentUser.js"></script>
+    <script src="popup.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="popup.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="bulma.css" media="screen" />
+
+
+</head>
+
+<body class="narrow">
+
+    <div id='loginContainer' style="display: none">
+        <section class="hero ">
+            <div class="hero-body">
+                <div class="container is-fluid">
+
+                    <div class="box12">
+                        <img src="allhours-logo.png" />
+                        <div class="field">
+                            <input class="input" type="email" placeholder="Email" id='email'>
+                        </div>
+                        <div class="field">
+                            <input class="input" type="password" placeholder="Password" id='password'>
+                        </div>
+                        <button id='loginButton' class="button is-info">Login</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id='mainContainer' style="display: none" class="box12">
+
+        <div class='title greeting'></div>
+        <div class='status'></div>
+
+ 
+
+
+        <div class="grid2x2">
+                <div class="buttonContainer buttonContainer1">
+                        <img src="webClock1.png" />
+                        <div class='buttonTitle'>Arrival</div>
+                </div>
+                <div class="buttonContainer buttonContainer2">
+                        <img src="webClock2.png" />
+                        <div class='buttonTitle'>Departure</div>
+                </div>
+                <div class="buttonContainer buttonContainer3">
+                        <img src="webClock3.png" />
+                        <div class='buttonTitle'>Paid exit</div>
+                </div>
+                <div class="buttonContainer buttonContainer4">
+                        <img src="webClock4.png" />
+                        <div class='buttonTitle'>Lunch break</div>
+                </div>
+              </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
